@@ -1,0 +1,57 @@
+
+h1{
+    color: rgb(18, 34, 53);
+    font-size: 80px;
+    padding: 40px;
+    text-align: center;
+}
+
+/* lokk général des div du formualire pour l'authentification */
+.formualireDauthentification div{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0 0 0;
+}
+.formualireDauthentification .envoie{
+    margin: 25px auto 0 auto;
+    padding: 0;
+    width: 200px;
+}
+
+/* look bouton */
+.envoieForm {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} 
+.envoieForm {
+    color: #fff;
+    background-color: var(--bleu);
+    border-color: var(--bleu);
+}
+.envoieForm:hover{
+    background-color: var(--bleu-foncer);
+    border-color: var(--bleu-foncer);
+}
+
+
+/* look titre */
+.formualireDauthentification p,
+.confirmationSuppression p,
+.formualireDeDeconnection p{
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}

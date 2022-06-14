@@ -1,0 +1,122 @@
+/* ===== header ===== */
+header * {
+    font-size: 20px;
+    color: black;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid var(--border-foncer);
+}
+
+header nav {
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    width: 180px;
+}
+
+header nav ul li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover p,
+header nav ul li a.active p {
+    color: var(--bleu-violet);
+}
+
+header ul#nav2 {
+    margin-top: 18px;
+    display: none;
+}
+
+header ul#nav2 li {
+    padding: 10px 0 10px 0;
+}
+
+header ul#nav2 li a {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0 10px 10px;
+}
+
+header a.actif p{
+    color: #0056b3;
+}
+
+header #btnLogOut{
+    position: absolute;
+    top: 27px;
+    right: 20px;
+}
+
+header #btnLogOut:hover i{
+    color: #0056b3;
+}
+
+/* ===== Présentation (HOME) ===== */
+#home .formRechercher{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ===== Mes Inscription ===== */
+#mesInscription .menuAction{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#mesInscription .formRechercher {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.engrenage i{
+    /* color: rgb(70, 70, 70); */
+    color: white;
+}
+/* .engrenage:hover i{
+    color: #0056b3;
+} */
+
+/* ===== add inscription ===== */
+th{
+    font-size: 16px;
+}
+td{
+    font-size: 14px;
+}
+
+/* ===== Resultat ===== */
+#resultat .formRechercher,
+#resulatDetail .formRechercher{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}

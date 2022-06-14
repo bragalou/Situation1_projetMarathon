@@ -1,0 +1,28 @@
+main h1{
+    color: rgb(18, 34, 53);
+    font-size: 80px;
+    padding: 40px;
+    font-family: cursive;    
+}
+
+main section#title{
+    background: linear-gradient(0deg, rgba(13, 110, 253,0.2), rgba(13, 110, 253, 0.2)),url('../img/img_course_2.jpg') 10% 20% no-repeat;
+    /* background: url('../img/img_course.jpg') 10% 20% no-repeat; */
+
+    background-size: cover;
+    overflow: hidden;
+
+    width: 100%;
+    height: 800px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+/* main section div{
+    background: url('../img/logo-marathon.png') 10% 20% no-repeat;
+} */
+/* main img{
+    width: 300px;
+    height: 50px;
+} */

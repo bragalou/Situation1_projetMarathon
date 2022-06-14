@@ -1,0 +1,70 @@
+h1{
+    color: rgb(18, 34, 53);
+    font-size: 80px;
+    padding: 40px;
+    text-align: center;
+}
+
+
+
+
+/* --css du champs de recherhce */
+.champDeRecherche{
+    display: flex;
+    flex-direction: row;
+    height: calc(1.8125rem + 2px);
+}
+.champDeRecherche i{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.champDeRecherche i:hover{
+    color: var(--bleu-violet);
+}
+.champDeRecherche p {
+    height: calc(1.8125rem + 2px);
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.champInputRecherhce{
+    margin-top: 0!important;
+}
+
+/* bouton rechercher du filtre */
+.boutonFiltreRecherhcer{
+    margin: 20px 0 10px 0;
+    padding: .275rem .5rem;
+
+    color: white;
+    background-color: var(--bleu-violet);
+    border-color: var(--bleu-violet);
+}
+.boutonFiltreRecherhcer:hover{
+    color: white;
+    background-color: var(--bleu-foncer);
+    border-color: var(--bleu-foncer);
+}
+
+/* des élément spécifique */
+.info.lit{
+    margin-right: 100px;
+}
+.champInput-numero{
+    width: 54px;
+}
+.champInput-superficie{
+    width: 100px;
+}
+.champInput-orientation{
+    appearance: button;
+}
+.champInput{
+    margin-top: 4px;
+}
+.form-check-input:focus{
+    box-shadow: none;
+}
+
